@@ -7,11 +7,11 @@ pipeline {
         }
        }
       stage("test") {
-        stps { 
+        steps { 
           echo 'testing the application'
           }
         }
-       stage("deploy){
+       stage("deploy"){
         steps{ 
           echo 'Deploying the application'
           }
